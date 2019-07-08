@@ -130,18 +130,16 @@ else:
     raise ImportError('no os specific module found')
 
 # sys.modules['os.path'] = path
-class path:
-	curdir="."
-	pardir=".."
-	sep="\\"
-	pathsep=";"
-	defpath=".;C:\\bin"
-	extsep="."
-	altsep="/"
-	devnull="nul"
-  
-from os.path import (curdir, pardir, sep, pathsep, defpath, extsep, altsep,
-    devnull)
+# from os.path import (curdir, pardir, sep, pathsep, defpath, extsep, altsep, devnull)
+curdir="."
+pardir=".."
+sep="\\"
+pathsep=";"
+defpath=".;C:\\bin"
+extsep="."
+altsep="/"
+devnull="nul"
+
 
 
 del _names
