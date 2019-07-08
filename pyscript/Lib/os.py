@@ -129,7 +129,7 @@ elif 'ce' in _names:
 else:
     raise ImportError('no os specific module found')
 
-sys.modules['os.path'] = path
+# sys.modules['os.path'] = path
 from os.path import (curdir, pardir, sep, pathsep, defpath, extsep, altsep,
     devnull)
 
