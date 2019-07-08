@@ -1,12 +1,20 @@
-# Pyscript
+Pyscript
 
 Pyscript is the attempt to execute python code from javascript. 
 
-Python code execution
-Go to my website: https://hayatonagasaki.github.io/pyscript/Pyscript_Test.html
+Execute python code within Javascript
+step1: Go to my website https://hayatonagasaki.github.io/pyscript/Pyscript_Test.html
+step2: Open Inspect on your browser, and go to Console
+step3: Put following command
+```
+var script = document.createElement('script');
+script.type = 'text/pyscript';
+script.innerHTML = 'print("here will be"); print("your python space")'
+document.head.appendChild(script);
+```
 
-website that introduces pyscript
+
+References
 http://luizricardo.org/2014/02/running-python-or-any-language-in-your-browser/
 
-pyscript demo
 http://utluiz.github.io/pyscript/
