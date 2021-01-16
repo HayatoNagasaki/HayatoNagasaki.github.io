@@ -16,9 +16,6 @@
     -->
 
     <style>
-    body {
-        padding: 1%;
-    }
     .form {
         border-radius: 10px;
         background-color: rgb(230, 230, 230);
@@ -49,6 +46,8 @@
 </head>
 <body>
 <center>
+    <div style="width: 100%; padding: 10%;"></div>
+
     <form class="form" action="https://the/registration/request/will/be/sent/to/here" method="post">
         <div class="form-group">
             <input type="hidden" name="mcode" value="UTF-8">
@@ -60,7 +59,7 @@
         </div>
         <input type="submit" name="sbm" value="登録" data-icon="arrow-r" data-iconpos="right" data-inline="true" data-theme="b">
         <p style="margin-top: 5px; font-size: 0.8em;">
-        ※登録後はいつでもメールないのURLより配信停止にすることができます。<br>
+        ※登録後はいつでもメール内のURLより配信停止にすることができます。<br>
         ※あなたからお預かりしたメールアドレスなどのプライバシー情報は厳守いたします。
         </p>
     </form>
@@ -71,3 +70,4 @@ $.mobile.pushStateEnabled = false;
 </script>
 </body>
 </html>
+
