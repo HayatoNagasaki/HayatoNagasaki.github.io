@@ -238,7 +238,7 @@ ul, li {
 #works .card {
   display: inline-block;
   width: 30%;
-  min-width: 400px;
+  min-width: 300px;
   max-width: 600px;
   margin: 0 10px 50px 10px;
 }
@@ -247,6 +247,8 @@ ul, li {
   display: block;
   margin-bottom: 8px;
   height: 245px;
+  width: 100%;
+  background-size: cover;
 }
 
 #works .card-caption {
@@ -269,6 +271,7 @@ ul, li {
 #works .card-wrapper {
   padding: 20px 0;
 }
+
 
 /*--------------------------------
 　About
@@ -525,7 +528,7 @@ ul, li {
     width: 100%;
   }
   #works .card {
-    width: 48%;
+    width: 90%;
   }
   #works .card-caption-title {
     font-size: 12px;
