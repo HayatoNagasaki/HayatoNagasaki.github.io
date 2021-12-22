@@ -608,16 +608,25 @@ ul, li {
     margin-bottom: 5px;
   }
 
- .profile img {
-  /* border-radius: 50%; 
-  border: 4px solid GREEN; */
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    object-fit: cover; /* ADD */
- }
+  .two-column-wrapper {
+    display: block;
+  }
+    .two-column-image {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .two-column-desc {
+        width: 100%;
+    }
+
+    .profile img {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        object-fit: cover; /* ADD */
+    }
 }
 
 .profile img {
