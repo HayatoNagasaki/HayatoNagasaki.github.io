@@ -1,394 +1,473 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-  <title>Jun portfolio</title>
+    <meta charset="UTF-8">
+    <title>Hayato Nagasaki | Portfolio</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
-  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/bubbles.css" media="all" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link rel="shortcut icon" href="img/favicon2.ico" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+
+    <script src="https://api.glavita.com/static/jquery/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="https://api.glavita.com/static/bootstrap/4.0.0/css/bootstrap.css" />
+    <script src="https://api.glavita.com/static/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://api.glavita.com/static/font-awesome/5.15.4/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="/assets/css/animate.min.css">
+
+    <link href="/assets/css/style.css" rel='stylesheet' type='text/css'>
+    <script src="/assets/js/utils.js"></script>
+    <script src="/assets/js/portfolio.js"></script>
 </head>
 <body>
-<div id="wrapper">
-    <header id="header" class="bubbles">
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <center>
-            <h1 class="logo" style="z-index: 1;">
-                <span class="logo-title">Hayato Nagasaki's portfolio</span>
-                <span class="logo-desc">Web Engineer</span>
-            </h1>
-        </center>
-    </header>
+    <div include-html="navigation.html"></div>
 
-    <nav id="gnav">
-        <ul>
-            <li><i class="fas fa-user fa-lg"><a href="#Profile">PROFILE</a></i></li>
-            <li><i class="fas fa-lightbulb fa-lg"><a href="#skill">SKILL</a></i></li>
-            <li><i class="fas fa-tasks fa-lg"><a href="#works">WORKS</a></i></li>
-            <li><i class="fas fa-envelope fa-lg"><a href="#contact">CONTACT</a></i></li>
-        </ul>
-    </nav>
-    <main id="contents">
-
-      <section class="section" id="Profile" style="padding-top: 31.5px;">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title"><i class="fas fa-user"><span class="section-title-css">PROFILE</span></i></h2>
-          </div>
-          <div class="two-column-wrapper">
-            <div class="two-column-image profile">
-              <img src="./img/profile/profile.jpg" alt="">
-            </div>
-            <div class="two-column-desc">
-              <p class="text">
-                はじめまして。平成10年生まれの23歳エンジニアのジュン(<a href="https://twitter.com/junlix2018">@junlix2018</a>)と申します。社会人歴（IT業界）2年目です。<br>
-                高校生のときにプログラミングを独学で初め，アメリカの大学を卒業したのちに新卒で某航空会社傘下のシステム開発会社に入社しました。<br>
-                会社ではウォータフォール形式で，業務効率化を目的とするシステムの開発に携わりました。また，それと同時に副業をスタートし，個人からのシステム開発案件を受注。<br>
-                今では，フリーのフルスタックエンジニアとして「自分と社会の発展」をテーマにお仕事をしています。（2021年12月18日更新）
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="skill" style="padding-top: 31.5px;">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title"><i class="fas fa-lightbulb fa-lg"><span class="section-title-css">SKILL</span></i></h2>
-            <p class="section-desc"></p>
-          </div>
-          <div class="card-wrapper">
-
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>プログラミング言語</h3>
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col">技術</th>
-                      <th scope="col">経験年数</th>
-                      <th scope="col">スキル</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                  　<tr>
-                      <th scope="row">Python</th>
-                      <td>5年</td>
-                      <td><span class="rating"><p class="rate rate5"></p></span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">JavaScript</th>
-                      <td>3年</td>
-                      <td><span class="rating"><p class="rate rate5"></p></span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">HTML</th>
-                      <td>3年</td>
-                      <td><span class="rating"><p class="rate rate4"></p></span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">CSS</th>
-                      <td>3年</td>
-                      <td><span class="rating"><p class="rate rate4"></p></span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>フロントエンド</h3>
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col">技術</th>
-                      <th scope="col">経験年数</th>
-                      <th scope="col">スキル</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">NodeJS</th>
-                      <td>2年</td>
-                      <td><span class="rating"><p class="rate rate3"></p></span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">jQuery</th>
-                      <td>3年</td>
-                      <td><span class="rating"><p class="rate rate3"></p></span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">ReactJS</th>
-                      <td>1年</td>
-                      <td><span class="rating"><p class="rate rate4"></p></span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>バックエンド</h3>
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col">技術</th>
-                      <th scope="col">経験年数</th>
-                      <th scope="col">スキル</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">Django (Python)</th>
-                      <td>3年</td>
-                      <td><span class="rating"><p class="rate rate4"></p></span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title"><i class="fas fa-database"></i>DB</h3>
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col">技術</th>
-                      <th scope="col">経験年数</th>
-                      <th scope="col">スキル</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">PostgreSQL</th>
-                      <td>2年</td>
-                      <td><span class="rating"><p class="rate rate4"></p></span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title"><i class="fas fa-server"></i>その他・フレームワーク</h3>
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col">技術</th>
-                      <th scope="col">経験年数</th>
-                      <th scope="col">スキル</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">aws(EC2、RDS等)</th>
-                      <td>1年</td>
-                      <td><span class="rating"><p class="rate rate3"></p></span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Git</th>
-                      <td>3年</td>
-                      <td><span class="rating"><p class="rate rate3"></p></span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Django Rest Framework</th>
-                      <td>1年</td>
-                      <td><span class="rating"><p class="rate rate4"></p></span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Swagger</th>
-                      <td>1年</td>
-                      <td><span class="rating"><p class="rate rate3"></p></span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="works" style="padding-top: 31.5px;">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title"><i class="fas fa-tasks fa-lg"><span class="section-title-css">WORKS</span></i></h2>
-            <div class="section-desc"></div>
-          </div>
-
-          <center class="card-wrapper my-gallery" data-pswp-uid="1">
-            <figure class="card">
-                <img class="card-image" src="./img/works/thumb/linkremix.png" alt="">
-                <figcaption class="card-caption">
-                  <p class="card-caption-title">LinkRemix</p>
-                  <p class="card-caption-info">仮想通貨関連コンテンツシェアプラットフォーム</p>
-                  <p class="card-caption-info">Django/HTML/CSS/JavaScript</p>
-                  <p class="card-caption-url"><a class="url-link" href="https://www.linkremix.com" target="_blank">View Site</a></p>
-                </figcaption>
-            </figure>
-
-            <figure class="card">
-              <img class="card-image" src="./img/works/thumb/waltz-in.png" alt="">
-              <figcaption class="card-caption">
-                <p class="card-caption-title">Waltz In</p>
-                <p class="card-caption-info">社交ダンスマッチングサイト</p>
-                <p class="card-caption-info">Django/HTML/CSS/JavaScript</p>
-                <p class="card-caption-url"><a class="url-link" href="https://www.waltz-in.com/" target="_blank">View Site</a></p>
-              </figcaption>
-            </figure>
-          </center>
-
-        </div>
-      </section>
-
-      <section class="section" id="contact" style="padding-top: 31.5px;">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title"><i class="fas fa-envelope fa-lg"><span class="section-title-css">CONTACT</span></i></h2>
-            <p class="section-desc">
-              何かありましたらtwitterのDMからどしどしご連絡をください。
+    <div class="stripe s-padding">
+        <div class="w-100" style="height: 80px;"></div>
+        <div class="animated fadeInUp">
+            <div class="h2 text-red ml-1">Hi, my name is</div>
+            <h1 class="heading-1 text-white">Hayato Nagasaki.</h1>
+            <div class="heading-1 text-slate">Web engineer's portfolio.</div>
+            <p class="h4 mt-3">
+                この世界の無限大の可能性を掘り起こす。
             </p>
-          </div>
-          <div class="contact-wrapper">
-            <div class="contact-list" style="text-align: center;">
-                <a href="https://twitter.com/junlix2018" target="_blank"><img src="./img/contact/icon_contact.jpg" alt="" class="contact-img" style="margin: 0 auto;"><span class="contact-list-desc">Twitter</span></a>
-              <!-- <ul>
-                <li><a href="#"><img src="img/contact/icon_contact.png" alt=""><span class="contact-list-desc">フォーム</span></a></li>
-                <li><a href="https://twitter.com/naoto_7713" target="_blank"><img src="img/contact/icon_contact.jpg" alt=""><span class="contact-list-desc">Twitter</span></a></li>
-                <li><a href="#" target="_blank"><img src="img/contact/icon_contact.png" alt=""><span class="contact-list-desc">Facebook</span></a></li>
-              </ul> -->
+        </div>
+        <div class="d-flex animated fadeInUp">
+            <div class="social-media">
+                <a href="https://github.com/HayatoNagasaki" target="_about">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://twitter.com/junlix2021" target="_about">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/hayato.nagasaki.31/" target="_about">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
-          </div>
         </div>
-      </section>
-    </main>
-    <footer id="footer">
-      <div class="inner">
-        <nav class="footer-link">
-          <ul>
-            <li><a href="#Profile">Profile</a></li>
-            <li><a href="#skill">SKILL</a></li>
-            <li><a href="#works">WORKS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-          </ul>
-        </nav>
-        <p class="copyright">Copyright©Naoto Suzuki. All Rights Reserved.</p>
-      </div>
-    </footer>
-  </div>
-
-
-  <!-- Root element of PhotoSwipe. Must have class pswp. -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe.
-           It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-      <!-- Container that holds slides.
-              PhotoSwipe keeps only 3 of them in the DOM to save memory.
-              Don't modify these 3 pswp__item elements, data is added later on. -->
-      <div class="pswp__container">
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-      </div>
-
-      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-      <div class="pswp__ui pswp__ui--hidden">
-
-        <div class="pswp__top-bar">
-
-          <!--  Controls are self-explanatory. Order can be changed. -->
-
-          <div class="pswp__counter"></div>
-
-          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-
-
-          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-          <!-- element will get class pswp__preloader--active when preloader is running -->
-          <div class="pswp__preloader">
-            <div class="pswp__preloader__icn">
-              <div class="pswp__preloader__cut">
-                <div class="pswp__preloader__donut"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-          <div class="pswp__share-tooltip"></div>
-        </div>
-
-        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-              </button>
-
-        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-              </button>
-
-        <div class="pswp__caption">
-          <div class="pswp__caption__center"></div>
-        </div>
-
-      </div>
-
     </div>
 
-  </div>
-  <script type="text/javascript" src="./js/photoswipe/photoswipe.min.js"></script>
-  <script type="text/javascript" src="./js/photoswipe/photoswipe-ui-default.js"></script>
-  <script type="text/javascript" src="./js/photoswipe/photoswipe_setup.js"></script>
-  <script type="text/javascript" src="./js/script.js"></script>
-  </div>
+    <div id="about" class="stripe s-padding move-fadeIn">
+        <div class="h2 text-red ml-1">About Me</div>
+        <div class="row m-0">
+            <div class="col-md-8 p-1">
+                <p>
+                    はじめまして。長崎隼と申します。高校生のときにプログラミングを独学で初め，アメリカの大学を卒業したのちに新卒で某航空会社傘下のシステム開発会社に入社しました。
+                    <br>
+                    今では，フリーのフルスタックエンジニアとして「この世界の無限大の可能性を掘り起こす」をテーマにお仕事をしています。
+                    <br><br>
+                    Hello! My name is Hayato Nagasaki and I enjoy creating that live on the internet.
+                    I learned computer programming when I was in a high school, then I went study abroad to a university in the United States.
+                    <br>
+                    After graduating, I came back to Japan and started my career at IT division of an airline company as a system engineer.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <div class="bg-lighte-navy my-pic" style="background-image: url('/assets/images/mypic.jpg');"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="work" class="stripe s-padding">
+        <div class="h2 text-red ml-1">Some Things I've Built</div>
+
+        <div class="thing-i-built move-fadeIn">
+            <div class="pc">
+                <div class="d-flex">
+                    <div class="position-relative" style="width: 40%;">
+                        <h2 class="text-white mb-3">LinkRemix</h2>
+                        <div class="block position-absolute bg-lighte-navy rounded p-3" style="left: 10%; width: 100%;">
+                            LinkRemixは、<br>
+                            仮想通貨に関する情報をシェアできるサービス。<br>
+                            ユーザー同士でフォローしあえるSNS。
+                        </div>
+                        <div class="position-absolute text-white" style="top: 200px;">
+                            Django&nbsp;&nbsp;
+                            ReactJS&nbsp;&nbsp;
+                            <a class="text-white" target="_brank" href="https://finteech.pythonanywhere.com/">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="/assets/images/linkremix.png" style="width: 60%;" />
+                </div>
+            </div>
+            <div class="mobile">
+                <div>
+                    <div class="w-100">
+                        <h2 class="text-white mb-3">LinkRemix</h2>
+                    </div>
+                    <img src="/assets/images/linkremix.png" class="w-100" />
+                    <div class="block bg-lighte-navy rounded p-3">
+                        LinkRemixは、<br>
+                        仮想通貨に関する情報をシェアできるサービス。<br>
+                        ユーザー同士でフォローしあえるSNS。
+                    </div>
+                    <div class="text-white text-right">
+                        Django&nbsp;&nbsp;
+                        ReactJS&nbsp;&nbsp;
+                        <a class="text-white" target="_brank" href="https://finteech.pythonanywhere.com/">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thing-i-built move-fadeIn">
+            <div class="pc">
+                <div class="d-flex">
+                    <img src="/assets/images/manekineko.png" style="width: 60%;" />
+                    <div class="position-relative text-right" style="width: 40%;">
+                        <h2 class="text-white mb-3">まねき猫求人</h2>
+                        <div class="block position-absolute bg-lighte-navy rounded p-3" style="right: 10%; width: 100%;">
+                            まねき猫求人は、まちまるシステムが運営する<br>
+                            秩父市に特化した求人サービス。<br>
+                            秩父を拠点とする企業に全国から応募ができます。
+                        </div>
+                        <div class="position-absolute text-white" style="top: 200px; right: 0;">
+                            Django&nbsp;&nbsp;
+                            Jquery&nbsp;&nbsp;
+                            Bootstrap&nbsp;&nbsp;
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile">
+                <div>
+                    <div class="w-100">
+                        <h2 class="text-white mb-3">まねき猫求人</h2>
+                    </div>
+                    <img src="/assets/images/manekineko.png" class="w-100" />
+                    <div class="block bg-lighte-navy rounded p-3">
+                        まねき猫求人は、まちまるシステムが運営する<br>
+                            秩父市に特化した求人サービス。<br>
+                            秩父を拠点とする企業に全国から応募ができます。
+                    </div>
+                    <div class="text-white text-right">
+                        Django&nbsp;&nbsp;
+                        Jquery&nbsp;&nbsp;
+                        Bootstrap&nbsp;&nbsp;
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thing-i-built move-fadeIn">
+            <div class="pc">
+                <div class="d-flex">
+                    <div class="position-relative" style="width: 40%;">
+                        <h2 class="text-white mb-3">かいごちゃんねる</h2>
+                        <div class="block position-absolute bg-lighte-navy rounded p-3" style="left: 10%; width: 100%;">
+                            かいごちゃんねるは、<br>
+                            全国の介護施設を検索することのできるサービス。<br>
+                            10,000件以上の施設が登録されています。
+                        </div>
+                        <div class="position-absolute text-white" style="top: 200px;">
+                            Bottle (Python)&nbsp;&nbsp;
+                            Orator&nbsp;&nbsp;
+                            Jquery&nbsp;&nbsp;
+                            Bootstrap&nbsp;&nbsp;
+                            <a class="text-white" target="_brank" href="https://kaigochannel.com/">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <img src="/assets/images/kaigochannel.png" style="width: 60%;" />
+                </div>
+            </div>
+            <div class="mobile">
+                <div>
+                    <div class="w-100">
+                        <h2 class="text-white mb-3">かいごちゃんねる</h2>
+                    </div>
+                    <img src="/assets/images/kaigochannel.png" class="w-100" />
+                    <div class="block bg-lighte-navy rounded p-3">
+                        かいごちゃんねるは、<br>
+                            全国の介護施設を検索することのできるサービス。<br>
+                            10,000件以上の施設が登録されています。
+                    </div>
+                    <div class="text-white text-right">
+                        Bottle (Python)&nbsp;&nbsp;
+                        Orator&nbsp;&nbsp;
+                        Jquery&nbsp;&nbsp;
+                        Bootstrap&nbsp;&nbsp;
+                        <a class="text-white" target="_brank" href="https://kaigochannel.com/">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="stripe s-padding">
+        <div class="h2 text-red ml-1">My Skillset</div>
+        <div style="padding: 0 15px;">
+            <div class="block bg-lighte-navy p-2 move-fadeIn">
+                <h2 class="text-center">プログラミング言語</h2>
+                <table class="table table-borderless text-center">
+                    <tr>
+                        <td>技術</td>
+                        <td>経験年数</td>
+                        <td>スキル</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>5年</td>
+                        <td>
+                            <span class="rating"><p class="rate rate5"></p></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>JavScript</td>
+                        <td>3年</td>
+                        <td>
+                            <span class="rating"><p class="rate rate5"></p></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>3年</td>
+                        <td>
+                            <span class="rating"><p class="rate rate5"></p></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>3年</td>
+                        <td>
+                            <span class="rating"><p class="rate rate5"></p></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Solidity</td>
+                        <td>1年</td>
+                        <td>
+                            <span class="rating"><p class="rate rate3"></p></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="row m-0">
+            <div class="col-md-6">
+                <div class="block bg-lighte-navy p-2 move-fadeIn">
+                    <h2 class="text-center">フロントエンド</h2>
+                    <table class="table table-borderless text-center">
+                        <tr>
+                            <td>技術</td>
+                            <td>経験年数</td>
+                            <td>スキル</td>
+                        </tr>
+                        <tr>
+                            <td>Jquery</td>
+                            <td>3年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate5"></p></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ReactJS</td>
+                            <td>1年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate3"></p></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>VueJS</td>
+                            <td>1年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate3"></p></span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="block bg-lighte-navy p-2 move-fadeIn">
+                    <h2 class="text-center">バックエンド</h2>
+                    <table class="table table-borderless text-center">
+                        <tr>
+                            <td>技術</td>
+                            <td>経験年数</td>
+                            <td>スキル</td>
+                        </tr>
+                        <tr>
+                            <td>Django</td>
+                            <td>3年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate4"></p></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>rest Framework (API)</td>
+                            <td>1年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate4"></p></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Firebase</td>
+                            <td>1年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate3"></p></span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="row m-0">
+            <div class="col-md-6">
+                <div class="block bg-lighte-navy p-2 move-fadeIn">
+                    <h2 class="text-center">DB</h2>
+                    <table class="table table-borderless text-center">
+                        <tr>
+                            <td>技術</td>
+                            <td>経験年数</td>
+                            <td>スキル</td>
+                        </tr>
+                        <tr>
+                            <td>PostgreSQL</td>
+                            <td>2年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate4"></p></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>MySQL</td>
+                            <td>2年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate3"></p></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>MariaDB</td>
+                            <td>1年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate3"></p></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>MongoDB</td>
+                            <td>1年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate3"></p></span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="block bg-lighte-navy p-2 move-fadeIn">
+                    <h2 class="text-center">その他</h2>
+                    <table class="table table-borderless text-center">
+                        <tr>
+                            <td>技術</td>
+                            <td>経験年数</td>
+                            <td>スキル</td>
+                        </tr>
+                        <tr>
+                            <td>AWS</td>
+                            <td>2年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate3"></p></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>GIT</td>
+                            <td>3年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate5"></p></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>さくらVPS</td>
+                            <td>2年</td>
+                            <td>
+                                <span class="rating"><p class="rate rate4"></p></span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contact" class="stripe s-padding text-center move-fadeIn" style="margin-bottom: 200px;">
+        <div class="h2 text-red ml-1">What's Next</div>
+        <div class="text-white" style="font-size: 60px;">Get In Touch</div>
+
+        <div class="d-flex justify-content-center mt-5">
+            <form class="text-left" style="width: 100%; max-width: 600px;" method="POST">
+                <div class="form-group">
+                    <label>名前(Name) <span style="font-size: 0.9em;">必須</span></label>
+                    <input type="text" class="form-control form-light-navy" name="name" required disabled/>
+                </div>
+                <div class="form-group">
+                    <label>メールアドレス(Email) <span style="font-size: 0.9em;">必須</span></label>
+                    <input type="email" class="form-control form-light-navy" name="email" required disabled/>
+                </div>
+                <div class="form-group">
+                    <label>内容(Content) <span style="font-size: 0.9em;">必須</span></label>
+                    <textarea class="form-control form-light-navy" name="content" style="height: 200px;" required disabled></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-portfolio-red" disabled>Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="text-center w-100 p-3">
+        &copy;Copyrite<br>
+        Designed & Built By Hayato Nagasaki.
+    </footer>
+
+
+    <script>
+        includeHTML();
+
+        function openMenu(){
+            if ($('#nav_menu').attr('class').search('show') == -1){
+                $('#nav_menu').fadeIn();
+                $('#nav_menu').addClass('show');
+                $('.nav').addClass('bg-nav');
+            }
+            else{
+                closeMenu();
+            }
+        }
+        function closeMenu(){
+            $('#nav_menu').fadeOut();
+            $('#nav_menu').removeClass('show');
+        }
+
+        function setScrollIntoView(id){
+            const yOffset = -80;
+            const elm = document.getElementById(id);
+            const y = elm.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({top: y, behavior: 'smooth'});
+
+            let page_width = getPageWidth();
+            if (page_width <= 960){
+                closeMenu();
+            }
+        }
+
+        if (window.location.pathname != '/'){
+            $('.nav').addClass('bg-nav');
+        }
+    </script>
 </body>
 </html>
